@@ -23,7 +23,8 @@ var suits = [...]Suit{Spade, Heart, Diamond, Club}
 type Rank uint8
 
 const (
-	Ace Rank = iota
+	_ Rank = iota
+	Ace
 	Two
 	Three
 	Four
